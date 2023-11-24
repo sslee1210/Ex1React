@@ -1,0 +1,67 @@
+.main h1 {
+  margin-top: 200px;
+  font-size: 10vw;
+  margin-left: 20px;
+  width: 50vw;
+  font-size: 15vw;
+}
+
+.main p {
+  font-weight: bold;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.main .pic1 {
+  background-color: yellowgreen;
+  width: 90vw;
+  height: 50vw;
+  margin-top: 150px;
+  margin-bottom: 200px;
+
+  border-radius: 20px;
+}
+
+.main .pic1 .macbg {
+  position: relative;
+  width: 60%;
+  left: 13vw;
+  bottom: 10vw;
+}
+
+.main .pic1 .mac {
+  position: relative;
+  width: 70%;
+  left: 5vw;
+  bottom: 70vw;
+}
+
+.main .pic2 {
+  background-color: yellowgreen;
+  width: 90vw;
+  height: 50vw;
+  margin-top: 150px;
+  margin-bottom: 200px;
+
+  border-radius: 20px;
+}
+
+.main .pic2 .macbg2 {
+  position: relative;
+  width: 60%;
+  left: 13vw;
+  bottom: 10vw;
+}
+
+.main .pic2 .mac2 {
+  position: relative;
+  width: 70%;
+  left: 5vw;
+  bottom: 70vw;
+}
+
+.main p {
+  margin-bottom: 150px;
+  width: 70vw;
+  text-align: center;
+}

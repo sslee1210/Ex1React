@@ -1,0 +1,89 @@
+/* Header.css */
+h2 {
+  padding: 10px;
+  background-color: #ddd;
+}
+
+.header-wrap {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header-container {
+  position: fixed;
+  width: 90%;
+  border-bottom: 2px solid orange;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: none;
+  color: rgb(0, 0, 0);
+  z-index: 1;
+}
+
+.logo {
+  margin: 0;
+}
+
+.menu-icon {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: rgb(0, 0, 0);
+  margin: 3px 0;
+  transition: 0.4s;
+}
+
+.bar.open {
+  transform: rotate(-45deg) translateY(15px);
+}
+
+.bar.open:nth-child(2) {
+  opacity: 0;
+}
+
+.bar.open:nth-child(3) {
+  transform: rotate(45deg) translateY(-12px);
+}
+
+.shorter {
+  width: 20px;
+  margin-left: 4px;
+}
+
+.shorterr {
+  width: 15px;
+  margin-left: 9px;
+}
+
+.sidebar {
+  position: fixed;
+  font-size: 2rem;
+  top: 10vh;
+  right: -300px;
+  height: 50%;
+  width: 250px;
+  background-color: #333;
+  color: white;
+  transition: right 0.5s ease;
+  z-index: 2;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.sidebar.show {
+  right: 0;
+}
+
+.menu-item {
+  margin: 10px 0;
+  cursor: pointer;
+}
