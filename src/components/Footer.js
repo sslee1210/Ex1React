@@ -12,10 +12,7 @@ const Footer = () => {
       {/* Footer 내용 */}
       <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
         <SwiperSlide>
-          <img
-            src="./images/6456360c09c5e119b00d1150_IMG_0845-2.jpg"
-            alt="Image 1"
-          />
+          <img src="./images/Swiper_img1.jpg" alt="Image 1" />
         </SwiperSlide>
         <SwiperSlide>
           <img src="./images/Swiper_img2.jpg" alt="Image 2" />
